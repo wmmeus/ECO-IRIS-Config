@@ -1,0 +1,27 @@
+# Ignore executable and lib files
+*.exe
+*.dll
+
+# Ignore system folders
+chat/
+chat2/
+config/
+gift_0/
+mail_0/
+
+# Ignore log files
+*.log
+
+# Ignore update-related files
+*.lst
+*.ver
+
+# Ignore data folder
+data/*
+
+# Unignore sprite folder
+!data/sprite/
+
+# Re-ignore subfolders inside sprite folder except emblem
+data/sprite/*
+!data/sprite/emblem/
